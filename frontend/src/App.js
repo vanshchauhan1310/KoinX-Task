@@ -6,7 +6,7 @@ import StatsCard from './compoenents/StatsCard';
 import DeviationCard from './compoenents/DeviationCard';
 import { Toast } from './compoenents/ui/Toast';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+const API_URL = process.env.REACT_APP_API_URL;
 
 function App() {
   const [selectedCoin, setSelectedCoin] = useState('bitcoin');
